@@ -1,0 +1,85 @@
+* {
+  padding: 0px;
+  margin: 0px;
+}
+.main {
+  background-color: rgb(189, 216, 232);
+  padding: 5px;
+  box-sizing: border-box;
+  border: solid black 2px;
+  position: sticky;
+  top: 5px;
+  box-shadow: 2px 4px 4px rgb(175, 175, 175);
+  margin-bottom:30px ;
+}
+.main:hover {
+  background-color: rgb(225, 212, 237);
+}
+.main:active {
+  background-color: rgb(240, 157, 178);
+}
+.nav {
+  display: inline-block;
+  width: 900px;
+
+  color: rgb(47, 46, 98);
+  margin-left: 50px;
+  font-size: .8cm;
+  
+}
+
+a {
+  margin-inline: 40px;
+  text-decoration: none;
+  color: rgb(48, 45, 151);
+  font-size: 25px;
+}
+
+table {
+  border-collapse: collapse;
+  border: 1px solid rgb(219, 217, 217);
+  text-align: center;
+  margin-top: 10px;
+}
+td,
+th {
+  border-bottom: 1px solid rgb(219, 217, 217);
+  border-right: 1px solid rgb(219, 217, 217);
+  width: 200px;
+}
+
+.books1 {
+  background-color: rgb(242, 246, 245);
+  height: 480px;
+  width: 600px;
+  box-shadow: 2px 4px 4px black;
+  margin: 50px;
+  padding: 20px;
+  margin-top: 30px;
+}
+.title {
+  color: blue;
+}
+.subtable {
+  width: 200px;
+  border: none;
+}
+
+.register1 {
+  background-color: rgb(242, 246, 245);
+  height: 480px;
+  width: 600px;
+  box-shadow: 2px 4px 4px black;
+  margin: 50px;
+  padding: 20px;
+}
+
+.form {
+  width: 500px;
+}
+
+.button1 {
+  background-color: black;
+  color: white;
+  border-style: none;
+}
